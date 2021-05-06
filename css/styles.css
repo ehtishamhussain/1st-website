@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: Norwester;
-    src: url("norwester.otf");
+    font-family: 'Norwester';
+    src: url(norwester.otf);
 }
 /*CSS Variables*/
 :root{
