@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family:'Norwester', sans-serif; ;
-    src: url("norwester.otf");
-}
+    font-family: 'Norwester Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Norwester Regular'), url('norwester.woff') format('woff');
+    }
 /*CSS Variables*/
 :root{
     --navbar-height:59px;
@@ -40,7 +42,7 @@
 }
 #navbar ul {
     display: flex;
-    font-family: 'Norwester', sans-serif;
+    font-family: 'Norwester Regular';
 
 }
 #navbar ul li{
@@ -67,14 +69,14 @@ text-align: center;
 .h-primary{
     font-size: 3rem;
     
-    font-family: 'Norwester', sans-serif;
+    font-family: 'Norwester Regular';
     line-height: 136px;
 
 }
 .h-secondary{
     font-size: 2rem;
     
-    font-family: 'Norwester', sans-serif;
+    font-family: 'Norwester Regular';
 
 }
 p{
@@ -115,7 +117,7 @@ p{
     
 }
 #heading>h1{
-    font-family:'Norwester', sans-serif ;
+    font-family:'Norwester Regular';
     font-size: 3rem;
 }
 
@@ -141,7 +143,7 @@ p{
     color: white;
     border-radius: 26px;
     font-size: 1.2rem;
-    font-family: 'Norwester', sans-serif;
+    font-family: 'Norwester Regular';
 }
 .btn:hover{
     transition: background-color 0.3s ease-in;
