@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: 'Norwester', sans-serif;;
+    src: url("norwester.otf");
+}
 /*Navigation*/
 #navbar{
     flex-direction: column;

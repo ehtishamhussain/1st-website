@@ -3,7 +3,10 @@
     padding:0px;
     box-sizing: border-box;
 }
-
+@font-face {
+    font-family:'Norwester', sans-serif; ;
+    src: url("norwester.otf");
+}
 /*CSS Variables*/
 :root{
     --navbar-height:59px;
