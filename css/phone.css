@@ -1,0 +1,18 @@
+/*Navigation*/
+#navbar{
+    flex-direction: column;
+}
+/*Home*/
+
+/*Services*/
+#services{
+    flex-direction: column;
+    
+}
+/*Partners section*/
+
+#clients{
+    overflow: hidden;
+}
+
+/*Contact Us*/

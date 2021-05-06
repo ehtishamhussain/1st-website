@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/*CSS Variables*/
+:root{
+    --navbar-height:59px;
+    --main-color:rgb(243, 141, 36);
+}
+/*Navbar styling*/
+#navbar::before{
+    content: "";
+    background-color: var(--main-color);
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index: -1;
+}
+#navbar{
+    display: flex; 
+    align-items: center;
+    
+    
+    color: black;
+    position: relative;
+    
+}
+
+#logo {
+    margin: -25px -22px;
+}
+#logo img{
+    height: 113px;
+    width: 169px;
+}
+#navbar ul {
+    display: flex;
+    font-family: 'Norwester', sans-serif;
+
+}
+#navbar ul li{
+    color: rgb(242, 162, 44);
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+#navbar ul li a {
+    display: block;
+    text-decoration: none;
+    padding:22px 20px;
+    color: rgb(10, 10, 10);
+}
+#navbar ul li a:hover {
+background-color: white;
+color: var(--main-color);
+transition: background-color 0.3s ease-in;
+}
+/*Section*/
+#home::before{
+    content: "";
+    background: url("../soup.jpg") no-repeat center center/cover;
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index: -2;
+    opacity: 0.75;
+
+}
+#home{
+    height: 350px;
+    width: 100%;
+   
+}
+#home p{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 2px 2px 8px #af9797;
+}
+
+.h-primary{
+    font-size: 3rem;
+    padding: 20px;
+    margin: 35px 0px;
+    font-family: 'Norwester', sans-serif;
+    text-shadow: 2px 2px 8px #b7adad;
+  
+}
+.btn{
+    padding: 7px 74px;
+    border: 2px solid var(--main-color);
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 26px;
+    font-size: 1.2rem;
+    font-family: 'Norwester', sans-serif;
+}
+.btn:hover{
+    transition: background-color 0.3s ease-in;
+    background-color: white;
+    color:var(--main-color) ;
+    cursor: pointer;
+}
