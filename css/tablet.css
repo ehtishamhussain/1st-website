@@ -1,13 +1,10 @@
-body{
-    background-color: red;
-}
 /*Navigation*/
-/*#navbar{
+#navbar{
     flex-direction: column;
     font-size: 1.1rem;
 }
 #navbar ul li{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 #logo img{
     height: 143px;
@@ -15,36 +12,44 @@ body{
 }
 
 /*Home*/
-/*#home{
+#home{
     height: 478px;
 }
 #heading{
     text-align: center;
     width: 100%;
 }
+#heading>h1{
+    font-size: 4rem;
+}
 #para{
     width: 100%;
     text-align: center;
+    font-size: 1.6rem;
 
 }
 #buton{
     text-align: center;
 }
 .btn{
-    padding: 14px 107px;
-    font-size: 1.3rem;
+    padding: 9px 86px;
+
+    font-size: 2rem;
 
 
-}*/
+}
 
 /*Services*/
-/*#services{
+.h-primary{
+    font-size: 4rem;
+}
+#services{
     flex-direction: column;
 }
 /*Partners section*/
 
-/*#clients{
+#clients{
     overflow: hidden;
-}*/
+}
 
 /*Contact Us*/
