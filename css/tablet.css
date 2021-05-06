@@ -32,12 +32,18 @@
 }
 #heading>h1{
     font-size: 2rem;
+    text-shadow: 1px 1px #ffffff;
 }
 #para{
     width: 100%;
     text-align: center;
     font-size: 1rem;
 
+}
+#para>p{
+    
+    text-shadow: 1px 1px #e6dbdb;
+    font-weight: bold;
 }
 #buton{
     text-align: center;
